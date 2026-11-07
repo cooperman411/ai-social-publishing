@@ -1,19 +1,12 @@
-# Short first-use conversation
+# Set Up Your First Post
 
-Only ask for details not already known. Do not present a long form.
+Use what the operator has already shared. Ask only for the details you still need.
 
-1. **Where?** Which of Facebook Page, Instagram professional, and Threads?
-   Which connected account should each use? Verify identity with tools.
-2. **What?** Subject areas, audience, brand voice, one call to action, and
-   topics or claims never to use. Reuse user-supplied brand material only.
-3. **How often?** One-off or recurring, desired dates/timezone, and who
-   approves content.
-4. **Assets?** Sources and brand images, acceptable usage rights, and whether
-   the user wants image generation at all.
-5. **Connection?** Discover native tools first. Offer Composio if necessary,
-   then Buffer or manual publishing. Do not require an account signup to draft.
-6. **Records?** Where can post drafts, private approvals and publication history
-   be saved? Never commit real material to a public repository.
+1. Ask what the post should cover and who should read it.
+2. Ask for brand notes or sample posts. Confirm the action the reader should take and any topics or claims to avoid.
+3. Confirm the channels and the account for each. Verify the connected account before using it.
+4. Ask which images and sources you can use. Confirm whether the operator wants a generated illustration.
+5. Confirm the proposed date, time zone, and person who approves the post. Ask about frequency if they want a series.
+6. Ask where to keep drafts, approvals, and publishing history. Use private storage for live work.
 
-Default: one post, all operations stop at `draft`, no connections added, and no
-scheduled jobs created until explicitly authorized.
+Start with one draft. Check native publishing tools first, then Composio, Buffer, or manual publishing when needed. Get approval before connecting accounts, scheduling, or publishing.

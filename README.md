@@ -1,73 +1,32 @@
 # AI Social Publishing
 
-A vendor-neutral, AI-assisted workflow for researching, drafting, approving,
-and publishing to **Facebook Pages, Instagram professional accounts, and Threads**.
-No LinkedIn, TikTok, or personal Facebook profile automation is implemented.
+Use your AI assistant to prepare posts for Facebook Pages, Instagram professional accounts, and Threads. Give it a topic, the audience, and any company material you want it to use. It checks the facts and image rights, writes for each channel, and gives you the posts to review.
 
-**Status: initial skill package.** It has documentation, fictional examples, and
-offline validation, but has **not** been tested against live social accounts.
-It is not a hosted scheduler, an authenticated connector, or an autonomous publisher.
+For example, a shop hosting a repair workshop could give the assistant the event details and a photo it owns. The assistant can draft a Facebook post with the date and location, an Instagram caption for the photo, and a short Threads post with the registration link.
 
-## The simple idea
+## Try It With One Post
 
-Tell an AI assistant what you want to share. It researches and verifies the
-content, checks image rights, adapts copy for each channel, and presents a
-reviewable approval package. Only after an explicit approval may a connected
-publishing tool schedule or publish the exact approved content. Each channel
-gets an independent status and provider receipt.
-
-**Integration order:** host-native tools (including Muse, where available),
-then Composio, then other documented providers such as Buffer, then an
-approved manual route. Discover actual capabilities; never assume the same
-service exists in ChatGPT, Claude, Hermes, or another host.
-
-## Start with your AI assistant
-
-Copy this prompt:
+Open the [skill](skills/social-publishing/SKILL.md) in your assistant, or give it the `skills/social-publishing` folder. Paste this request and fill in the details you know.
 
 ```text
-Help me use the AI Social Publishing skill in this folder or repository.
-Read README.md, skills/social-publishing/SKILL.md, and its referenced files.
-Check your actual publishing tools and permissions first. Walk me through
-short first-use setup, then prepare one fictional or real post for review.
-Do not publish, schedule, connect new accounts, or purchase services without
-my explicit authorization. Never assume LinkedIn is a destination.
+Prepare one post for [audience] about [topic]. Read the social publishing
+skill. Use [brand notes or sample posts] for the voice. Write a version for
+each of [channels]. Show me the copy, sources, image and credit, intended
+accounts, and proposed timing. Keep everything as a draft for review.
 ```
 
-If your assistant cannot read a repository, provide the `skills/social-publishing`
-folder and the files it references. A manual-only assistant can prepare the
-same approval package and record statuses without publishing.
+The [setup questions](skills/social-publishing/templates/first-use.md) cover the details the assistant needs. Start with an approved source and an image you can use. If an image's rights are unclear, resolve them before approving the post.
 
-## First run
+## Review and Publish
 
-1. Establish the brand voice, platforms, destination accounts, locale, and any
-   prior-publication archive. See `templates/first-use.md`.
-2. Probe native read/write/schedule capabilities. Use Composio only if native
-   tools do not meet the need. See `integrations/`.
-3. Research and verify facts and assets. Prepare one tailored channel variant.
-4. Show the exact copy, source links, media credits, destinations, and planned
-   timing. Obtain approval tied to that version.
-5. Publish or schedule only with a verified supported write tool; reconcile
-   status using a post ID or URL. Never retry an uncertain publish blindly.
-6. Retain a private post ledger and reuse it to prevent duplicates.
+Review the copy and image for each account. Check the credit and the proposed time. Approve the version you want to publish or schedule. Review any later change to the copy, media, account, or timing before it goes out.
 
-## Contents
+Use a [connected tool](skills/social-publishing/integrations/native-first.md) if it can publish to the account you chose. The assistant checks native tools first, then [Composio](skills/social-publishing/integrations/composio.md) and options such as [Buffer](skills/social-publishing/integrations/buffer.md). You can also take the reviewed copy and image to the platform and post it yourself.
 
-- `skills/social-publishing/SKILL.md` — authoritative workflow.
-- `skills/social-publishing/references/` — editorial, approval, and ledger rules.
-- `skills/social-publishing/integrations/` — integration-specific guidance.
-- `skills/social-publishing/templates/` — short setup and portable post schema.
-- `skills/social-publishing/examples/` — fictional content, never real profiles.
-- `tests/` — offline validation of the example and policy boundaries.
-- `SOURCES.md` — vendor and API references, checked 2026-11-06.
+Keep a private record of what went out, where, and when. Record a scheduled post as scheduled. Update the record when you have confirmation that it is live.
 
-Run offline checks: `python3 -m unittest discover -s tests -v`.
+## Project Status
 
-## Boundaries
+The repository contains the workflow, templates, and a [fictional draft](skills/social-publishing/examples/fictional-post.json). Testing so far covers the offline example. Publishing depends on the tools and permissions available for your account.
 
-This is a skill, not a subscription service. Publishing requires a supported,
-authorized connector or human operator. Platform terms, features, pricing, and
-API approval requirements change. Personal accounts are not assumed API-
-accessible. Images require rights review. A draft, scheduled item, and live
-post are different states. Use at your own risk; the MIT license supplies no
-warranty.
+See the [editorial reference](skills/social-publishing/references/editorial.md) for facts and images, and the [approval and record guide](skills/social-publishing/references/approval-and-ledger.md) for publishing status.
