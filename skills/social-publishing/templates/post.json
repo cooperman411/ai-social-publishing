@@ -1,0 +1,39 @@
+{
+  "post_id": "<local identifier>",
+  "topic": "<subject>",
+  "factual_sources": [
+    "<source URL>"
+  ],
+  "assets": [
+    {
+      "path": "<private local asset path>",
+      "source_url": "<asset source>",
+      "license_or_permission": "<verified rights>",
+      "attribution": "<required credit>"
+    }
+  ],
+  "variants": {
+    "facebook": "<Facebook Page caption>",
+    "instagram": "<Instagram caption>",
+    "threads": [
+      "<post text or thread segment>"
+    ]
+  },
+  "approval": {
+    "status": "draft",
+    "approved_version": null,
+    "approved_at": null
+  },
+  "destinations": [
+    {
+      "platform": "facebook",
+      "account_label": "<verified Page>",
+      "scheduled_at": null,
+      "state": "draft",
+      "remote_id": null,
+      "remote_url": null,
+      "verified_at": null
+    }
+  ],
+  "notes": "Never use unapproved live credentials or real account IDs here."
+}

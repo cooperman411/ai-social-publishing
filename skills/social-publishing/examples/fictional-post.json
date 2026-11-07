@@ -1,0 +1,58 @@
+{
+  "post_id": "sample-001",
+  "topic": "Fictional community library seed exchange",
+  "factual_sources": [
+    "https://example.org/fictional-announcement"
+  ],
+  "assets": [
+    {
+      "path": "./illustrative-placeholder.png",
+      "source_url": "https://example.org/fictional-image",
+      "license_or_permission": "UNKNOWN: replace before publication",
+      "attribution": "Illustration placeholder; do not publish"
+    }
+  ],
+  "variants": {
+    "facebook": "Fictional example: a local library plans a seed exchange. What would make an event like this useful?",
+    "instagram": "Fictional example for layout testing only. Seed exchange announcement pending verification.",
+    "threads": [
+      "Fictional example: planning a seed exchange at a library.",
+      "This post demonstrates a two-part thread, not an actual event."
+    ]
+  },
+  "approval": {
+    "status": "draft",
+    "approved_version": null,
+    "approved_at": null
+  },
+  "destinations": [
+    {
+      "platform": "facebook",
+      "account_label": "DEMO ONLY",
+      "scheduled_at": null,
+      "state": "draft",
+      "remote_id": null,
+      "remote_url": null,
+      "verified_at": null
+    },
+    {
+      "platform": "instagram",
+      "account_label": "DEMO ONLY",
+      "scheduled_at": null,
+      "state": "draft",
+      "remote_id": null,
+      "remote_url": null,
+      "verified_at": null
+    },
+    {
+      "platform": "threads",
+      "account_label": "DEMO ONLY",
+      "scheduled_at": null,
+      "state": "draft",
+      "remote_id": null,
+      "remote_url": null,
+      "verified_at": null
+    }
+  ],
+  "notes": "Synthetic example; missing rights and live source verification intentionally prevent publishing."
+}
