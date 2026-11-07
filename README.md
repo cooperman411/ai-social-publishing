@@ -1,32 +1,29 @@
 # AI Social Publishing
 
-Use your AI assistant to prepare posts for Facebook Pages, Instagram professional accounts, and Threads. Give it a topic, the audience, and any company material you want it to use. It checks the facts and image rights, writes for each channel, and gives you the posts to review.
+Plan a series of posts around subjects your audience cares about. Give the assistant your industry, audience, topics, and posting schedule. It finds stories, looks for public domain images that fit each story, and prepares posts for Facebook Pages, Instagram professional accounts, and Threads.
 
-For example, a shop hosting a repair workshop could give the assistant the event details and a photo it owns. The assistant can draft a Facebook post with the date and location, an Instagram caption for the photo, and a short Threads post with the registration link.
+A vintage computing shop, for example, could ask for three stories about early personal computers. The assistant would look for documented objects and photographs in computing or museum collections, verify the rights for each image, and show you a week of posts to review.
 
-## Try It With One Post
+## Start With a Brief
 
-Open the [skill](skills/social-publishing/SKILL.md) in your assistant, or give it the `skills/social-publishing` folder. Paste this request and fill in the details you know.
+Give your assistant the [skill folder](skills/social-publishing/) and adapt this request.
 
 ```text
-Prepare one post for [audience] about [topic]. Read the social publishing
-skill. Use [brand notes or sample posts] for the voice. Write a version for
-each of [channels]. Show me the copy, sources, image and credit, intended
-accounts, and proposed timing. Keep everything as a draft for review.
+Plan three posts for [audience] about [industry and topics].
+Use [brand notes or sample posts] if supplied.
+Propose dates and times for [channels] in [time zone].
+Find a public domain or CC0 image for each story.
+Show me the posts, images, sources, credits, and schedule for review.
 ```
 
-The [setup questions](skills/social-publishing/templates/first-use.md) cover the details the assistant needs. Start with an approved source and an image you can use. If an image's rights are unclear, resolve them before approving the post.
+Use the [setup questions](skills/social-publishing/templates/first-use.md) to set your usual topics, voice, accounts, and cadence. Use the [image guide](skills/social-publishing/references/images.md) to see where the assistant searches and how it checks each file.
 
-## Review and Publish
+## Choose How to Publish
 
-Review the copy and image for each account. Check the credit and the proposed time. Approve the version you want to publish or schedule. Review any later change to the copy, media, account, or timing before it goes out.
+The assistant checks the tools you already have and compares the routes that fit your accounts and schedule. It can guide you through connecting an account or give you the approved copy and files to post yourself. See the [publishing routes](skills/social-publishing/integrations/native-first.md).
 
-Use a [connected tool](skills/social-publishing/integrations/native-first.md) if it can publish to the account you chose. The assistant checks native tools first, then [Composio](skills/social-publishing/integrations/composio.md) and options such as [Buffer](skills/social-publishing/integrations/buffer.md). You can also take the reviewed copy and image to the platform and post it yourself.
+## Review the Batch
 
-Keep a private record of what went out, where, and when. Record a scheduled post as scheduled. Update the record when you have confirmation that it is live.
+Review the exact copy, image, credit, account, and posting time for each item. Approve the posts you want to use. The assistant can then schedule or publish each approved item through a supported connection and record the result in your private post history.
 
-## Project Status
-
-The repository contains the workflow, templates, and a [fictional draft](skills/social-publishing/examples/fictional-post.json). Testing so far covers the offline example. Publishing depends on the tools and permissions available for your account.
-
-See the [editorial reference](skills/social-publishing/references/editorial.md) for facts and images, and the [approval and record guide](skills/social-publishing/references/approval-and-ledger.md) for publishing status.
+The workflow includes a [fictional draft](skills/social-publishing/examples/fictional-post.json). The existing tests cover the offline example. Publishing depends on the tools and permissions available for your accounts.

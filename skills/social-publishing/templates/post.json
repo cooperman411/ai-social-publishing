@@ -1,39 +1,47 @@
 {
   "post_id": "<local identifier>",
   "topic": "<subject>",
-  "factual_sources": [
-    "<source URL>"
-  ],
+  "angle": "<why this story matters to this audience>",
+  "factual_sources": [],
   "assets": [
     {
-      "path": "<private local asset path>",
-      "source_url": "<asset source>",
-      "license_or_permission": "<verified rights>",
-      "attribution": "<required credit>"
+      "path": "<private draft asset path>",
+      "original_path": null,
+      "source_url": null,
+      "creator": null,
+      "license_or_permission": null,
+      "rights_url": null,
+      "restrictions": [],
+      "attribution": null,
+      "checked_at": null
     }
   ],
   "variants": {
     "facebook": "<Facebook Page caption>",
     "instagram": "<Instagram caption>",
-    "threads": [
-      "<post text or thread segment>"
-    ]
-  },
-  "approval": {
-    "status": "draft",
-    "approved_version": null,
-    "approved_at": null
+    "threads": ["<post text or thread segment>"]
   },
   "destinations": [
     {
       "platform": "facebook",
       "account_label": "<verified Page>",
-      "scheduled_at": null,
+      "account_ref": null,
+      "variant_version": null,
+      "due_at": null,
+      "time_zone": null,
+      "approval": {
+        "approved_version": null,
+        "approved_at": null,
+        "decision_ref": null
+      },
       "state": "draft",
+      "scheduled_at": null,
+      "schedule_receipt": null,
       "remote_id": null,
       "remote_url": null,
-      "verified_at": null
+      "verified_at": null,
+      "replies": []
     }
   ],
-  "notes": "Never use unapproved live credentials or real account IDs here."
+  "notes": "Keep live records in private storage."
 }
