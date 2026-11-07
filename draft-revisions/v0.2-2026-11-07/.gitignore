@@ -1,0 +1,15 @@
+# Keep real customer, audience, and connector data out of source control.
+.env
+.env.*
+!.env.example
+private/
+work/
+secrets/
+credentials/
+accounts.json
+campaigns/
+*.sqlite
+*.db
+__pycache__/
+.pytest_cache/
+.DS_Store
