@@ -21,6 +21,6 @@ If the person authorizes a recurring run and Muse supports it, use one task to c
 | `failed` | The platform confirmed a failure. |
 | `unknown` | Check the platform before retrying. |
 
-Keep the scheduling receipt separate from the live link. Record each Threads reply with its sequence number, parent ID, and result. When one account fails, keep the other accounts’ results and check the affected account before resuming. For manual publishing, update the record when the person shares the live link or other confirmation.
+Keep the scheduling receipt separate from the live link. Record each Threads reply with its sequence number, parent ID, and result. When one account fails, keep the other accounts’ results and check the affected account before resuming.
 
 Close the batch by saving the subject, angle, dates, sources, media credit, and results. Use that history when choosing the next batch.

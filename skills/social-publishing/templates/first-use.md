@@ -9,6 +9,6 @@ Muse asks for the details it needs to prepare the first draft. Give short answer
 5. **Accounts.** Choose the Facebook Page, Instagram professional account, or Threads account for each version. Say whether you want photos, short videos, or a mix.
 6. **Schedule.** Choose the number of posts, days, times, and time zone. Set a deadline to review the batch. Flag any dates to skip and say who can pause the schedule.
 7. **Media.** Tell Muse where to find your photos or video and how to credit them. Say whether it can look for public domain images or use files you have permission to publish.
-8. **Records.** Choose a private place to keep the brief, calendar, files, and post history. Tell Muse whether you want drafts, a list to post yourself, or help scheduling approved posts.
+8. **Records.** Choose a private place to keep the brief, calendar, files, and post history. Tell Muse whether you want drafts or help scheduling approved posts.
 
 Muse reads back the brief and proposed schedule before it drafts the batch. You can start with one post and add more when you’re ready.

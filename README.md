@@ -15,4 +15,4 @@ Muse follows the [playbook](skills/social-publishing/SKILL.md) and asks for the 
 
 Muse finds stories for your audience, starts with your photos or video, and prepares posts for Facebook Pages, Instagram professional accounts, and Threads. You review each version before Muse schedules or publishes it.
 
-The [appendix](APPENDIX.md) covers optional publishing routes and channels. The [fictional draft](skills/social-publishing/examples/fictional-post.json) shows what the post record looks like.
+The [fictional draft](skills/social-publishing/examples/fictional-post.json) shows what the post record looks like.
