@@ -6,18 +6,18 @@
   ],
   "assets": [
     {
-      "path": "./illustrative-placeholder.png",
+      "path": null,
       "source_url": "https://example.org/fictional-image",
       "license_or_permission": "UNKNOWN: replace before publication",
-      "attribution": "Illustration placeholder; do not publish"
+      "attribution": null
     }
   ],
   "variants": {
-    "facebook": "Fictional example: a local library plans a seed exchange. What would make an event like this useful?",
-    "instagram": "Fictional example for layout testing only. Seed exchange announcement pending verification.",
+    "facebook": "Bring seeds from last season to the library’s seed exchange. Label each packet with the plant name and the year you collected it.",
+    "instagram": "Saved seeds last season? Label the packets with the plant name and year, then bring them to the library’s seed exchange.",
     "threads": [
-      "Fictional example: planning a seed exchange at a library.",
-      "This post demonstrates a two-part thread, not an actual event."
+      "Bring a packet of saved seeds to the library’s seed exchange.",
+      "Write the plant name and collection year on the packet so the next gardener knows what they’re planting."
     ]
   },
   "approval": {
@@ -54,5 +54,5 @@
       "verified_at": null
     }
   ],
-  "notes": "Synthetic example; missing rights and live source verification intentionally prevent publishing."
+  "notes": "Fictional draft for review. The source, image rights, accounts, and posting times need confirmation."
 }

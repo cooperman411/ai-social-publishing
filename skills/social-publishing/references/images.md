@@ -1,21 +1,18 @@
-# Find and Verify an Image
+# Find and Verify Photos and Video
 
-## Choose Where to Search
+Use the photos and video you own when they fit the story. Ask before using material from a customer, photographer, or other creator. Record the permission and the credit they asked for. Use stock only when the person asks for it and the license covers the post.
 
-Start with the subject, location, and era in the story. Search the organization, agency, museum, library, or archive most likely to hold the original image. Use the subject's name, common alternate names, and a date or place when useful. Look for a collection that publishes rights information for individual files.
+When no owned file fits, look for a public domain or CC0 image. Start with the subject, place, and era. Search the agency, museum, library, or archive most likely to have the original.
 
-| Subject | Starting Point |
+| Subject | Where to Start |
 | --- | --- |
-| Space missions or astronomy | [NASA Image and Video Library](https://images.nasa.gov/) and [NASA media guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) |
-| Coasts, ocean science, or storms | [NOAA image collections](https://response.restoration.noaa.gov/resources/images) |
-| Technology, artifacts, art, or natural history | [Smithsonian Open Access](https://www.si.edu/openaccess). Look for the CC0 mark on the actual media. |
-| Historic places, people, buildings, or events | [Library of Congress Free to Use and Reuse](https://www.loc.gov/free-to-use/) or a local archive with item-level rights statements |
-| A subject without an obvious archive | [Wikimedia Commons](https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia/licenses/en). Check the file page and trace the original source where possible. |
+| Space missions and astronomy | [NASA Image and Video Library](https://images.nasa.gov/) and [NASA media guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) |
+| Coasts, ocean science, and storms | [NOAA image collections](https://response.restoration.noaa.gov/resources/images) |
+| Technology, art, and natural history | [Smithsonian Open Access](https://www.si.edu/openaccess). Look for the CC0 mark on the image itself. |
+| Historic places, people, and events | [Library of Congress Free to Use and Reuse](https://www.loc.gov/free-to-use/) or a local archive with a rights statement for each item |
+| A subject without an obvious archive | [Wikimedia Commons](https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia/licenses/en). Check the file page and trace the original source. |
 
-## Check the Exact File
-
-1. Open the item page. Check the creator, subject, date, and rights statement for the media itself. Prefer a documented public domain designation or CC0 dedication that fits the intended use. A site-wide label, image search filter, or CC0 metadata record alone does not establish the image's rights.
-2. Check for third-party credits or additional restrictions relevant to the use. Pay particular attention to recognizable people, logos, and any suggestion of endorsement in a promotional post. Leave the item unresolved when you cannot establish permission.
-3. Download a suitable file from the item page. Open it and confirm it shows the subject and era the caption describes. Label a representative image as such.
-4. Save the original and any crop privately. Record the item URL, creator, rights statement and link, restrictions, exact credit, date checked, and the file used in the draft.
-5. Show the image and credit alongside the caption. If no suitable file qualifies, offer a verified company-owned image, an allowed openly licensed alternative, or a text version where supported. Keep other affected destinations in draft.
+1. Open the item page. Check what the image depicts, who made it, when it was made, and what the rights statement says about that exact file. Check any third-party credit and restrictions on the intended use.
+2. Open the image and compare it with the story. If it shows a similar object or place, say so in the caption. Check the music separately if you’re reusing a video on another channel.
+3. Save the original and any crop privately. Record the item link, creator, rights statement, restrictions, credit, and date checked.
+4. Show the actual file and credit with the draft. If you can’t find a suitable file, propose a different story, a text post where the channel supports it, or a slot to fill later.

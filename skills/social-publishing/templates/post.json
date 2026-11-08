@@ -3,6 +3,8 @@
   "topic": "<subject>",
   "angle": "<why this story matters to this audience>",
   "factual_sources": [],
+  "media_kind": "<photo or video>",
+  "media_source": "<own, customer with permission, licensed, or public domain fallback>",
   "assets": [
     {
       "path": "<private draft asset path>",

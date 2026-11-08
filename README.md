@@ -1,29 +1,29 @@
-# AI Social Publishing
+# AI Social Publishing for Muse
 
-Plan a series of posts around subjects your audience cares about. Give the assistant your industry, audience, topics, and posting schedule. It finds stories, looks for public domain images that fit each story, and prepares posts for Facebook Pages, Instagram professional accounts, and Threads.
+Give Muse your topics, audience, and posting schedule. It finds stories, pairs them with photos or video, and brings back a batch of posts for you to review. Use it for a business, an organization, or your own work.
 
-A vintage computing shop, for example, could ask for three stories about early personal computers. The assistant would look for documented objects and photographs in computing or museum collections, verify the rights for each image, and show you a week of posts to review.
+A vintage computing shop could ask for three posts about early personal computers. Muse starts with the shop’s photos. If a story needs an image the shop doesn’t have, Muse checks museum collections for a public domain image and includes the source and credit with the draft.
 
-## Start With a Brief
+## Start With One Post
 
-Give your assistant the [skill folder](skills/social-publishing/) and adapt this request.
+Open the [playbook](skills/social-publishing/SKILL.md) and give it to Muse. If Muse can read this repository, give it the link. You can also paste the playbook into a chat and share any guides it asks for.
 
 ```text
-Plan three posts for [audience] about [industry and topics].
-Use [brand notes or sample posts] if supplied.
-Propose dates and times for [channels] in [time zone].
-Find a public domain or CC0 image for each story.
-Show me the posts, images, sources, credits, and schedule for review.
+Use this playbook to prepare one post for [audience] about [topic].
+Start with [my photos or video]. Use a public domain image if I don’t
+have one that fits. Draft for [channels] in the voice of [sample posts
+or tone]. Show me the copy, media, credit, sources, and proposed time
+for review.
 ```
 
-Use the [setup questions](skills/social-publishing/templates/first-use.md) to set your usual topics, voice, accounts, and cadence. Use the [image guide](skills/social-publishing/references/images.md) to see where the assistant searches and how it checks each file.
+The [setup questions](skills/social-publishing/templates/first-use.md) cover what to post, whose voice to use, and when each post should go out. Choose a schedule you can keep. You can start with one post and plan a week once you like the result.
 
-## Choose How to Publish
+## Set Up Your Accounts
 
-The assistant checks the tools you already have and compares the routes that fit your accounts and schedule. It can guide you through connecting an account or give you the approved copy and files to post yourself. See the [publishing routes](skills/social-publishing/integrations/native-first.md).
+Start with the [Muse account guide](skills/social-publishing/integrations/muse-first.md). Choose the Facebook Page, Instagram professional account, or Threads account you want to use. Ask Muse to check which actions it can take for each account. If a publishing action is unavailable, Muse gives you the approved copy and media to post yourself.
 
 ## Review the Batch
 
-Review the exact copy, image, credit, account, and posting time for each item. Approve the posts you want to use. The assistant can then schedule or publish each approved item through a supported connection and record the result in your private post history.
+Check the copy, media, credit, account, and time for each post. Approve the versions you want to use. Muse schedules or publishes those versions where it has access and records each result in your private post history.
 
-The workflow includes a [fictional draft](skills/social-publishing/examples/fictional-post.json). The existing tests cover the offline example. Publishing depends on the tools and permissions available for your accounts.
+The [appendix](APPENDIX.md) covers optional publishing routes and channels. The [fictional draft](skills/social-publishing/examples/fictional-post.json) shows the post record. The repo’s offline tests cover the example.

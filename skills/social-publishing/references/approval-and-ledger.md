@@ -1,28 +1,26 @@
 # Approve, Schedule, and Record Posts
 
-## Approve the Exact Post
+## Approve the Post
 
-Record the operator's approval, time, and version for each destination. Tie the version to the final copy, media, account, and intended time. Return any material change to draft and ask for approval of the revised version.
+Show the exact copy, media, account, and time for each destination. Record the decision, date, and version in the private post record. If the copy, media, account, or time changes, send that version back for review.
 
-## Run the Calendar
+## Work Through the Calendar
 
-Plan the cadence during intake. Keep a private calendar with a post ID, subject, angle, due time and time zone, and each destination's version and status. Read the current brief, calendar, and post history before preparing each batch.
+Use the brief to plan the batch. Keep the subject, angle, due time, time zone, version, and status for each destination. Read the current brief and recent history before preparing the next batch.
 
-If the operator authorizes a recurring run and a scheduler is available, use a single recurring check for the approved queue. Read the current pause state each time. When paused, stop new scheduling and publishing, and report any already scheduled items that may need separate action. For an active run, select only due, approved items. Verify the destination before submitting. Save each receipt as soon as it returns. Skip items already scheduled or published and check any uncertain attempt before retrying.
-
-For manual publishing, give the operator a due list with the copy, image, credit, and account. Record the result when the operator supplies the post link or other confirmation.
+If the person authorizes a recurring run and Muse supports it, use one task to check the queue. Check for a pause before acting. If paused, report any posts that are already scheduled. Otherwise, work through the due, approved posts one at a time. Record each attempt before submitting and save the result as soon as it comes back. Check the platform before retrying any attempt with an uncertain result.
 
 ## Record the Result
 
-| State | Meaning |
+| Status | What It Means |
 | --- | --- |
-| `draft` | Awaiting review or missing a requirement |
-| `approved` | The operator approved this version and destination |
-| `scheduled` | The provider confirmed a future post |
-| `published` | A live post ID, link, or other receipt confirms publication |
-| `failed` | The provider confirmed a failure |
-| `unknown` | The outcome needs reconciliation before any retry |
+| `draft` | The post needs review or something is missing. |
+| `approved` | The person approved this version for this account and time. |
+| `scheduled` | The platform confirmed a future post. |
+| `published` | A live link, post ID, or other receipt confirms publication. |
+| `failed` | The platform confirmed a failure. |
+| `unknown` | Check the platform before retrying. |
 
-Keep scheduling receipts separate from live post IDs. For a reply chain, record each segment's sequence number, parent ID, state, and returned ID or URL. If part of a batch fails, record the result by destination and resume only the affected items after checking their state.
+Keep the scheduling receipt separate from the live link. Record each Threads reply with its sequence number, parent ID, and result. When one account fails, keep the other accounts’ results and check the affected account before resuming. For manual publishing, update the record when the person shares the live link or other confirmation.
 
-At the end of the batch, update the private post history with the subject, angle, dates, sources, image credit, destinations, and confirmed results. Use this history before selecting new stories.
+Close the batch by saving the subject, angle, dates, sources, media credit, and results. Use that history when choosing the next batch.
