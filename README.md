@@ -1,6 +1,6 @@
 # AI Social Publishing for Muse
 
-Use Muse to research stories and prepare posts for Facebook Pages, Instagram professional accounts, and Threads.
+Use Muse to research stories and prepare posts for Facebook Pages, Instagram professional accounts, and Threads. Give it a topic, an audience, and any photos or video you want to use, and it drafts each version for its account, checked against primary sources and your recent posts. You review the exact copy, media, and timing, and nothing gets scheduled or published until you approve it.
 
 ## Start
 
