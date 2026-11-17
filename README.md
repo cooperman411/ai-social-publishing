@@ -1,14 +1,16 @@
 # AI Social Publishing for Muse
 
-Use Muse to research stories and prepare posts for Facebook Pages, Instagram professional accounts, and Threads. Give it a topic, an audience, and any photos or video you want to use, and it drafts each version for its account, checked against primary sources and your recent posts. You review the exact copy, media, and timing, and nothing gets scheduled or published until you approve it.
+Use Muse as your ongoing social media manager for Facebook Pages, Instagram professional accounts, and Threads. Muse researches stories, drafts each version for its account, and keeps a record of what went out. You review the exact copy, media, and timing, and nothing gets scheduled or published until you approve it. The focus is professional use. Personal cross-posting is an option, occasionally or always.
 
 ## Start
 
 Paste this prompt into Muse.
 
 ```text
-Help me draft one post for my Meta accounts using this repository.
+Help me set up Muse as my ongoing social media manager for my Meta accounts using this repository.
 https://github.com/cooperman411/ai-social-publishing
+
+Read the README and the publishing playbook, then walk me through setup one question at a time.
 ```
 
 Muse follows the [publishing playbook](skills/social-publishing/SKILL.md). Give it a topic, an audience, and any photos, video, or sample posts you want it to use. If Muse cannot open the link, give it the playbook and the files it references.
@@ -22,7 +24,7 @@ Muse follows the [publishing playbook](skills/social-publishing/SKILL.md). Give 
 
 ## Check Your Accounts
 
-Use [Muse’s account setup guide](skills/social-publishing/integrations/muse-first.md) to connect the accounts you choose. Ask Muse to check which actions each account supports, such as attaching media, scheduling, or posting a Threads reply. When an action is unavailable, keep that version in draft. You can use the approved copy and media to post it yourself.
+Use [Muse’s account setup guide](skills/social-publishing/integrations/muse-first.md) to connect the accounts you choose. Ask Muse to check which actions each account supports, such as attaching media, scheduling, or posting a Threads reply. When an action is unavailable, keep that version in draft. You can use the approved copy and media to post it yourself. For personal cross-posting, Facebook personal is text only in Muse. A personal photo or video needs the browser route or manual posting.
 
 ## Approve and Publish
 
