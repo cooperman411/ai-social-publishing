@@ -1,5 +1,5 @@
 ---
-name: ai-social-publishing
+name: social-publishing
 description: Use Muse to plan a social calendar, research stories, source media, and prepare posts for Facebook Pages, Instagram professional accounts, and Threads. Schedule or publish after approval when the account supports it.
 metadata:
   version: "0.2.0"
