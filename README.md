@@ -15,6 +15,16 @@ Read the README and the publishing playbook, then walk me through setup one ques
 
 Muse follows the [publishing playbook](skills/social-publishing/SKILL.md). Give it a topic, an audience, and any photos, video, or sample posts you want it to use. If Muse cannot open the link, give it the playbook and the files it references.
 
+## Install as an agent skill (optional)
+
+For an AI agent that supports the [Skills CLI](https://skills.sh/docs), install from GitHub:
+
+```bash
+npx skills add cooperman411/ai-social-publishing
+```
+
+The installer discovers the `social-publishing` skill. This does not connect accounts or install the skill into Muse automatically. For the intended Muse workflow, use the **Start** prompt above and follow the account setup guide.
+
 ## Plan and Draft
 
 1. Set a goal for the post. For a batch, agree on the topics, accounts, posting times, time zone, and review deadline. See the [publishing brief](skills/social-publishing/templates/first-use.md).
@@ -46,5 +56,6 @@ For recurring work, approve the Muse task separately. Muse checks the current pl
 - [AI Social Publishing for Muse](https://github.com/cooperman411/ai-social-publishing)
 - [Hotel Group Sourcing Skill](https://github.com/cooperman411/hotel-group-rfp)
 - [Hotel Revenue Management Toolkit](https://github.com/cooperman411/hotel-revenue-management)
+- [Job Search Simplified](https://github.com/cooperman411/job-search-simplified)
 - [PT/OS One](https://github.com/cooperman411/plain-text-os-one)
 - [PT/OS Workspace](https://github.com/cooperman411/plain-text-os)
